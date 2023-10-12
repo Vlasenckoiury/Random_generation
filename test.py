@@ -3,7 +3,7 @@ import requests
 GoogleURL = 'http://over.org.tilda.ws/testuser'
 
 urlResponse = GoogleURL + '/formResponse'
-urlReferer = GoogleURL + 'viewform?edit_requested=true'
+urlReferer = GoogleURL + '/viewform?edit_requested=true'
 
 name = 'Iury'
 email = 'Iury458748@yandex.by'

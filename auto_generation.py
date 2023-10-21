@@ -17,10 +17,10 @@ def phone_cod_number():
         one_digit = r.choice([1, 2, 3, 5, 6, 7, 8, 9])
         for number in range(1):
             label2.configure(text=f"+375 ({cod_phone}) {one_digit}{generation_phone(2)}-"
-                                 f"{generation_phone(2)}-{generation_phone(2)}")
+                                  f"{generation_phone(2)}-{generation_phone(2)}")
     else:
         label2.configure(text=f"+375 ({cod_phone}){generation_phone(3)}-"
-                             f"{generation_phone(2)}-{generation_phone(2)}")
+                              f"{generation_phone(2)}-{generation_phone(2)}")
 
 
 def toggle_state(*_):
